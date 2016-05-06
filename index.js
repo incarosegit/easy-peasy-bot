@@ -35,7 +35,7 @@ if (process.env.MONGOLAB_URI) {
 } else {
     config = {
         json_file_store: ((process.env.TOKEN)?'./db_slack_bot_ci/':'./db_slack_bot_a/'), //use a different name if an app or CI
-        debug: true,
+        //debug: true,
     };
 }
 
